@@ -33,4 +33,4 @@ Tap "scan page," photograph a handwritten entry, and it gets transcribed straigh
 - Your API key never leaves the backend. It's not in the HTML anywhere.
 
 ## AI usage
-The app itself uses AI at runtime: Groq's `openai/gpt-oss-120b` for the therapist chat and journal reflections, and `qwen/qwen3.6-27b` for transcribing handwritten photos into text.
+This project was built with help from Claude (Anthropic) for the code and design. The app itself also uses AI at runtime: Groq's `openai/gpt-oss-120b` for the therapist chat and journal reflections, and `qwen/qwen3.6-27b` for transcribing handwritten photos into text.
