@@ -1,5 +1,3 @@
-# ledger
-
 A habit tracker and journal. Dark, quiet, no clutter.
 
 ## What's in here
@@ -33,3 +31,6 @@ Tap "scan page," photograph a handwritten entry, and it gets transcribed straigh
 ## A couple of things worth knowing
 - The AI therapist is a companion, not a real one. The app says so up front, and the prompt behind it is written to point people toward real help if things get heavy.
 - Your API key never leaves the backend. It's not in the HTML anywhere.
+
+## AI usage
+The app itself uses AI at runtime: Groq's `openai/gpt-oss-120b` for the therapist chat and journal reflections, and `qwen/qwen3.6-27b` for transcribing handwritten photos into text.
