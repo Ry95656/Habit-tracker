@@ -4,6 +4,8 @@ A habit tracker and journal. Dark, quiet, no clutter.
 - `frontend/ledger.html` — the whole app. Open it in a browser and it works. Habits and journal entries live in that browser's localStorage, so nothing leaves your machine unless you use the AI features below.
 - `backend/` — a small Express server that talks to Groq for the AI therapist (chat + reflections) and the photo scanner. Only needed for those two things.
 
+## Ledger
+![ledger screenshot](screenshot.png)
 ## Running the backend
 ```
 cd backend
@@ -33,4 +35,4 @@ Tap "scan page," photograph a handwritten entry, and it gets transcribed straigh
 - Your API key never leaves the backend. It's not in the HTML anywhere.
 
 ## AI usage
-This project was built with help from Claude (Anthropic) for the code and design. The app itself also uses AI at runtime: Groq's `openai/gpt-oss-120b` for the therapist chat and journal reflections, and `qwen/qwen3.6-27b` for transcribing handwritten photos into text.
+This project was built with help from Claude (Anthropic) for the code anda design. The app itself also uses AI at runtime: Groq's `openai/gpt-oss-120b` for the therapist chat and journal reflections, and `qwen/qwen3.6-27b` for transcribing handwritten photos into text.
